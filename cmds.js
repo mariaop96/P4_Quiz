@@ -239,8 +239,8 @@ exports.playCmd = rl =>{
 
 exports.creditsCmd = rl =>{
 	log("Autores de la práctica:", 'red');
- 	log("Marina González González", 'green');
- 	log("María Ortega Pérez", 'green');
+ 	log("MARINA GONZALEZ GONZALEZ", 'green');
+ 	log("MARIA ORTEGA PEREZ", 'green');
  	rl.prompt();
 };
 
