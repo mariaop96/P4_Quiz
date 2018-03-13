@@ -193,7 +193,6 @@ exports.playCmd = rl =>{
 			log("Fin del juego! Aciertos: " + score);
 			biglog(score, 'magenta');
 			rl.prompt();
-			resolve();
 			return;
 		} 
 		
