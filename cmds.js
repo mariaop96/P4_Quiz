@@ -200,9 +200,8 @@ exports.playCmd = rl =>{
 		let quiz = qUnresolved[id];
 		qUnresolved.splice(id, 1);
 
-		makeQuestion(rl, quiz.question)
+		makeQuestion(rl, quiz.question+"? ")
 		.then(answer => {
-
 			if(answer.toLowerCase().trim() === quiz.answer.toLowerCase().trim()) {
 					score++;
 					log('CORRECTO - LLeva '+ score + ' aciertos.', 'green');
